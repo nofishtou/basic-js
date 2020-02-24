@@ -9,7 +9,4 @@ module.exports = function dateSample(sampleActivity) {
   } else {
     return false
   }
-
-  // throw 'Not implemented';
-  // remove line with error and write your code here
 };
