@@ -10,6 +10,7 @@ module.exports = class DepthCalculator {
                 }        
             }
         })
+        
         counter +=1
         return counter
     }
