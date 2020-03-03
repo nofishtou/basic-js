@@ -59,7 +59,7 @@ class VigenereCipheringMachine {
             text +=m[i]
           }
         }
- 
+  
         for(let i = 0; i < text.length; i++  ){	
           let mi = text[i].charCodeAt();
           let ki_s = k[ ( (i >= k.length) ?(i % k.length) : i ) ];
@@ -83,9 +83,10 @@ class VigenereCipheringMachine {
         } else {
           return result.split('').reverse().join('')
         }
-        } else {
-            throw 'Not implemented';
-        }
+        
+      } else {
+          throw 'Not implemented';
+      }
     }
 }
 
